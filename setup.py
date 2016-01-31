@@ -4,5 +4,6 @@ setup(
 	name='Textmining',
 	version='0.0.1',
 	description='statistical text mining',
-	packages=find_packages()
+	packages=find_packages(),
+	package_data={'': ['*.txt']}
 )
